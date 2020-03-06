@@ -110,3 +110,5 @@ typings/
 .env
 
 
+#local history
+.history
