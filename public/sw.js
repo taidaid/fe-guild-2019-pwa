@@ -95,7 +95,7 @@ self.addEventListener("fetch", event => {
                             .get("accept")
                             .includes("text/html")
                     ) {
-                        return cache.match("fe-guild-2019-pwa/offline.html");
+                        return cache.match("/fe-guild-2019-pwa/offline.html");
                     }
                 });
             })
