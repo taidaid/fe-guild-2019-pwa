@@ -1,10 +1,10 @@
 // Replace { ... } with the content of the manifest.json file and remove the "start_url" and "scope” !!!
 window.addEventListener("load", () => {
-    const base = document.querySelector("base");
-    let baseUrl = (base && base.href) || "";
-    if (!baseUrl.endsWith("/")) {
-        baseUrl = `${baseUrl}/`;
-    }
+    // const base = document.querySelector("base");
+    // let baseUrl = (base && base.href) || "";
+    // if (!baseUrl.endsWith("/")) {
+    //     baseUrl = `${baseUrl}/`;
+    // }
 
     if ("serviceWorker" in navigator) {
         navigator.serviceWorker
