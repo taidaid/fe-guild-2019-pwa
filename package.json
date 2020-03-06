@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Solution for the FE Guild 2019 PWA Workshop code labs.",
     "scripts": {
-        "start": "http-server ./fe-guild-2019-pwa -c-1 ",
+        "start": "http-server -c-1 ",
         "deploy": "gh-pages -d fe-guild-2019-pwa"
     },
     "repository": {
